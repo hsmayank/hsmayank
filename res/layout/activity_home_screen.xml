@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#2b2b2b"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:background="@drawable/quiz_bg"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+
+        />
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+<ImageView
+    android:layout_marginTop="-50dp"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:src="@drawable/logo"
+    android:layout_marginBottom="10dp"
+    />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:layout_marginBottom="10dp"
+            android:id="@+id/playGame"
+            android:background="@drawable/button_bg"
+            android:layout_width="300dp"
+            android:text="@string/play_game"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/share"
+        android:background="@drawable/button_bg"
+        android:layout_width="300dp"
+        android:text="@string/share"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/exit"
+        android:background="@drawable/button_bg"
+        android:layout_width="300dp"
+        android:text="@string/quit"
+        android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
